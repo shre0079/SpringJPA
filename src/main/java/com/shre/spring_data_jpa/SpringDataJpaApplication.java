@@ -5,6 +5,7 @@ import com.shre.spring_data_jpa.repository.StudentRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import java.util.List;
 
 @SpringBootApplication
 public class SpringDataJpaApplication {
@@ -34,16 +35,6 @@ public class SpringDataJpaApplication {
 //        studentRepository.save(s2);
 //        studentRepository.save(s3);
 
-        s2.setRollNo(102);
-        s2.setName("Kiran");
-        s2.setMarks(75);
 
-        s3.setRollNo(103);
-        s3.setName("Harsh");
-        s3.setMarks(75);
-
-        studentRepository.save(s1);
-        studentRepository.save(s2);
-        studentRepository.save(s3);
     }
 }
