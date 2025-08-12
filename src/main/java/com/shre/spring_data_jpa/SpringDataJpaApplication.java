@@ -1,6 +1,7 @@
 package com.shre.spring_data_jpa;
 
 import com.shre.spring_data_jpa.model.Student;
+import com.shre.spring_data_jpa.repository.StudentRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
